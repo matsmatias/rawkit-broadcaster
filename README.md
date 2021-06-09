@@ -1,27 +1,23 @@
-**ABOUT**
+## About
 
 Rawkit Broadcaster is a Redis PubSub channels broadcaster API implemented with WebSocket. It can handle multiple WebSockets connections at once.
 
-
-**RECOMMENDED VERSIONS**
+## Recommended Versions
 
 The application has been tested with Deno 1.10.3 and Redis 5.0.7.
 
-
-**PREREQUISITES**
+## Prerequisites
 
 * Have a Redis server running
 * Configure Redis hostname and port on `app/config/app.ts`
 
-
-**RUNNING**
+## Running
 
 ```
 deno run --allow-net ./main.js
 ```
 
-
-**WebSocket API**
+## WebSocket API
 
 `/trade/{ticker}`
 

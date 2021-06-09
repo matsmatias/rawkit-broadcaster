@@ -14,7 +14,7 @@ The application has been tested with Deno 1.10.3 and Redis 5.0.7.
 ## Running
 
 ```
-deno run --allow-net ./main.js
+deno run --allow-net ./main.ts
 ```
 
 ## WebSocket API

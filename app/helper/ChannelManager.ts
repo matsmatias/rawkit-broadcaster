@@ -1,4 +1,4 @@
-import { WebSocket } from 'https://deno.land/std@0.98.0/ws/mod.ts';
+import { WebSocket } from 'https://deno.land/std/ws/mod.ts';
 import { Redis } from 'https://deno.land/x/redis@v0.22.1/mod.ts';
 
 import Channel from '../model/Channel.ts';

@@ -1,5 +1,5 @@
-import { serve } from 'https://deno.land/std@0.98.0/http/server.ts';
-import { acceptWebSocket, acceptable } from 'https://deno.land/std@0.98.0/ws/mod.ts';
+import { serve } from 'https://deno.land/std/http/server.ts';
+import { acceptWebSocket, acceptable } from 'https://deno.land/std/ws/mod.ts';
 import { connect } from 'https://deno.land/x/redis@v0.22.1/mod.ts';
 
 import ChannelManager from './app/helper/ChannelManager.ts';

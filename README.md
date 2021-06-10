@@ -17,6 +17,8 @@ The application has been tested with Deno 1.10.3 and Redis 5.0.7.
 deno run --allow-net ./main.ts
 ```
 
+There is a known problem in which `https://deno.land/std@0.98.0/io/buffer.ts` dependency throws `TS18022 [ERROR]: A method cannot be named with a private identifier`. If this happens, try running with `deno run --allow-net --no-check ./main.ts`.
+
 ## WebSocket API
 
 `/trade/{ticker}`

@@ -1,4 +1,4 @@
-import { serve } from 'https://deno.land/st@0.98.0d/http/server.ts';
+import { serve } from 'https://deno.land/std@0.98.0/http/server.ts';
 import { acceptWebSocket, acceptable } from 'https://deno.land/std@0.98.0/ws/mod.ts';
 import { connect } from 'https://deno.land/x/redis@v0.22.1/mod.ts';
 
